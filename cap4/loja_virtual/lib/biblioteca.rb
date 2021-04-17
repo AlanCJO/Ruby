@@ -7,7 +7,9 @@ class Biblioteca
     @livros = []
   end
 
-  def adiciona(livro)
-    @livros << livro
+  def adiciona(livros)
+    for livro in livros do
+      @livros << livro
+    end
   end
 end
