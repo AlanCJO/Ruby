@@ -49,16 +49,4 @@ for number in numbers
   puts number
 end
 # .... é... funciona! :D
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Fim da seção 4.1
