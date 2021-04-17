@@ -1,6 +1,4 @@
 # 4.6 Indo mais a Fundo: O Operador ||=
-require File.expand_path("lib/loja_virtual")
-
 # setar valor em uma variável apenas se ela for nil
 age = nil
 
