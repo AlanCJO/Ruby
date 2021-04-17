@@ -11,12 +11,14 @@ puts teste_e_design
 web_design_responsivo.valor = 79.90 # setter
 puts web_design_responsivo.valor    # getter
 
+=begin
 # burlando o acesso aos atributos do objeto
 puts teste_e_design.instance_variable_get "@preco"
 # alterando valor
 teste_e_design.instance_variable_set("@preco", 69.99)
 puts teste_e_design.instance_variable_get "@preco"
 p teste_e_design
+=end
 
 # simbolos x Strings
 # :um_simbolo_qualquer != "um_simbolo_qualquer"
