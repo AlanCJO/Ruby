@@ -30,8 +30,10 @@ class Livro
   # pensando nos setters e getters como algo comum, a linguagem tem sua própria implementação
   # attr_writer :preco
   # attr_reader :preco
-  # melhorando ainda mais, método para setter e getter
-  attr_accessor :preco
+
+  # melhorando ainda mais, método tanto para setter quanto para getter
+  # attr_accessor :preco
+
 
 end
 
