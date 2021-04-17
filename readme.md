@@ -1,7 +1,6 @@
 # Ruby
 
-Repositório com meus estudos iniciais na linguagem server-side Ruby. Posteriormente irei adentrar 
-Ruby on Rails
+Repositório com meus estudos iniciais na linguagem server-side Ruby, com entuito de posteriormente me aprofundar no framework Ruby on Rails.
 
 Os exemplos deste repositório é baseado no livro 
 <a href="https://www.casadocodigo.com.br/products/livro-ruby" target="_blank">
