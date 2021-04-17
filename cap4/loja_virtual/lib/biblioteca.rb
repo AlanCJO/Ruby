@@ -4,12 +4,16 @@ class Biblioteca
   attr_reader :livros
 
   def initialize
-    @livros = []
+    @livros = {}
   end
 
-  def adiciona(livros)
+  def adiciona(livro)
+=begin
     for livro in livros do
       @livros << livro
     end
+=end
+    @livros[livro.categoria] ||= []
+    @livros[livro.categoria] << livro
   end
 end
