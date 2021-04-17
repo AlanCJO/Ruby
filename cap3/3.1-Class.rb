@@ -30,19 +30,16 @@ puts price_with_discount(price, discount)
 
 class Book
   # método construtor - não existe sobrecarga em Ruby
-  def initialize(author, number_of_pages, isbn = "1")
-=begin
-    self.author = author
-    self.pages = number_of_pages
-    self.isbn = isbn
-=end
+  def initialize(author, isbn = "1", number_of_pages)
+    puts "Author: #{author}, ISBN: #{isbn}, Pages: #{number_of_pages}"
   end
 end
 
 test_and_design = Book.new "Mauricio Aniche", 247, "123454" # não precisa de parênteses
 web_design_responsive = Book.new "Tarcio Zemel", 189, "452565"
 
-puts Book.new "Lucas Souza", 198
+# Ruby possui argumentos Obrigatórios, Com valores padrão e Opcionais
+Book.new "Lucas Souza", 200
 
 
 
