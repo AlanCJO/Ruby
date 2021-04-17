@@ -14,14 +14,24 @@ class Livro
   end
 
   # convenção de desenvolvedores Ruby utilizar os getters com o mesmo nome do atributo
+=begin
   def preco
     @preco
   end
+=end
 
   # setters em Ruby, por convenção em Ruby utiliza-se o nome do atributo seguido de = Ex.: preco= ao invés de setPrice
+=begin
   def preco=(preco)
     @preco = preco
   end
+=end
+
+  # pensando nos setters e getters como algo comum, a linguagem tem sua própria implementação
+  # attr_writer :preco
+  # attr_reader :preco
+  # melhorando ainda mais, método para setter e getter
+  attr_accessor :preco
 
 end
 

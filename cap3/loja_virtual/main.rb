@@ -11,3 +11,6 @@ puts teste_e_design
 # setters
 web_design_responsivo.preco = 79.90
 puts web_design_responsivo.preco
+
+# simbolos x Strings
+# :um_simbolo_qualquer != "um_simbolo_qualquer"
