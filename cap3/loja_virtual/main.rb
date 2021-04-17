@@ -8,17 +8,15 @@ puts teste_e_design
 # como se fosse o print_r ou var_dump do PHP
 # p web_design_responsivo # mostra o endereço da memória e estrutura do objeto
 
-=begin
-web_design_responsivo.preco = 79.90 # setter
-puts web_design_responsivo.preco    # getter
-=end
+web_design_responsivo.valor = 79.90 # setter
+puts web_design_responsivo.valor    # getter
 
 # burlando o acesso aos atributos do objeto
 puts teste_e_design.instance_variable_get "@preco"
 # alterando valor
 teste_e_design.instance_variable_set("@preco", 69.99)
 puts teste_e_design.instance_variable_get "@preco"
-
+p teste_e_design
 
 # simbolos x Strings
 # :um_simbolo_qualquer != "um_simbolo_qualquer"

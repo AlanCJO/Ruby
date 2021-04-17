@@ -1,11 +1,14 @@
 # coding: utf-8
 class Livro
+  # melhorando ainda mais, método tanto para setter quanto para getter
+  attr_accessor :valor
+
   # atributos em Ruby por padrão já são private
-  def initialize(autor, isbn = "2", numero_de_paginas, preco)
+  def initialize(autor, isbn = "2", numero_de_paginas, valor)
     @autor = autor
     @isbn = isbn
     @numero_de_paginas = numero_de_paginas
-    @preco = preco
+    @valor = valor
   end
 
   # sobrescrevendo o método da classe Object to_s (representação de uma instância)
@@ -31,8 +34,6 @@ class Livro
   # attr_writer :preco
   # attr_reader :preco
 
-  # melhorando ainda mais, método tanto para setter quanto para getter
-  # attr_accessor :preco
 
 
 end
