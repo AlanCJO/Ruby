@@ -13,7 +13,9 @@ class Biblioteca
       @livros << livro
     end
 =end
+    # cria um array como valor da chave :categoria, resumindo é um Hash :categoria => objeto do livro
     @livros[livro.categoria] ||= []
+    # vincula o livro a esta categoria, por exemplo, :backend => "livro do akita"
     @livros[livro.categoria] << livro
   end
 end
