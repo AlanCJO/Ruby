@@ -5,4 +5,4 @@ trata a computação como a avaliação das funções matemáticas e a capacidad
 tar a mutabilidade de estado.
 
 ### 5.2 Funções Puras
-### 5.3 Comandos que Retornam Valores - página 67
+### 5.3 Comandos que Retornam Valores - página 81
